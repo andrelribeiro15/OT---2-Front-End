@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <title> Formularios Evento</title>
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+        <form>
+            <fieldset>
+                <legend> Conta do Evento</legend>
+                <label> Email</label>
+                <input type="email" name="email" required>
+
+                <label> Senha</label>
+                <input type="password" name="Senha" required>
+            </fieldset>
+
+            <fieldset>
+                <legend> Dados Pessoais</legend>
+                <label for="iNome"> Nome</label>
+                <input type="text" name="nNome" value="andre" id="iNome" placeholder="Informe o nome" required>
+                <br>
+
+                <label>Telefone</label>
+                <input type="text" name="nome" placeholder="(99)9999-9999" required>
+                <br>
+
+                <label>Sexo</label>
+                
+                <input type="radio" name="nsexo" id="imasc" value="masculino"  checked/>
+                <label for="imasc">Masculino</label>
+               
+                <input type="radio" name="nsexo" id="ifem" value="feminino"  >
+                <label for="ifem">Feminino</label>
+                <br>
+
+                <label> Data Nascimento</label>
+                <input type="date" name="data Nascimento"/>
+                <br>
+
+                <label>Idade</label>
+                <input type="number" name="Idade" min="0" max="50" step=".01" value="1" placeholder="Informe a Idade"/>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Evento</legend>
+
+                <input type="checkbox" name="nDesenvolvimento" id="iDesenvolvimento" value="desenvolvimento">
+                <label for="iDesenvolvimento">Desenvolvimento Web Moderno</label>
+                <br>
+                <input type="checkbox" name="nint" id="iint" value="inteligencia">
+                <label for="iint">Introdução a Inteligencia Artificial</label>
+                <br>
+                <input type="checkbox" name="nseg" id="iseg" value="seguranca">
+                <label for="iseg">Segurança na Internet</label>
+                <br>
+               
+                <label>Tema</label>
+                <select name="ntema" id="itema" required>
+                    <option value="">Selecione</option>
+                    <option value="1">Front-End</option>
+                    <option value="2">Back-End</option>
+                    <option value="3">Banco de dados</option>
+                    
+                </select>
+
+            </fieldset>
+
+            <fieldset>
+                <label> Apresentação</label>
+                <label for="iTitulo"> Titulo</label>
+                <br>
+                <input type="text" name="nTitulo"  id="iTitulo"  required>
+                <br>
+                <textarea  placeholder="Informe seu texto aqui " cols="60" rows="10"></textarea>
+
+            </fieldset>
+            <br>
+            <input type="submit" name="salvar" value="salvar"/>
+            <button type="reset">limpar</button>
+            <button type="submit">enviar</button>
+
+
+
+
+        </form>
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
